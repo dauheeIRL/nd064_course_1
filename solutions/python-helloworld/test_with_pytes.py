@@ -2,5 +2,5 @@
 def test_always_passes():
     assert True
 
-def test_alway_passes():
-    assert True
+def test_never_passes():
+    assert False
