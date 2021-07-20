@@ -41,5 +41,5 @@ jobs:
           context: .
           file: ./Dockerfile
           platforms: linux/amd64
-          push: true
-          tags: {{ secrets.YOUR_DOCKERHUB_REPOSITORY }}/python-helloworld:latest
+          push: true         
+          tags: Dauheexox/python-helloworld:latest
